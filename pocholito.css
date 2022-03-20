@@ -1,0 +1,93 @@
+.body{
+    /* background-color: rgb(247, 239, 236); */
+    background-image: url(img/confetti-sticker.gif);
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.contentPost{
+    background-color:#dfd6e7;
+    width: 95%;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+.separador{
+    /* background-color: #8f2aee; */
+    /* padding: 1px; */
+}
+.header{
+    background-color:#cc9df8;
+    /* background-image: url(img/confetti-sticker.gif); */
+    padding: 2px 2px;
+}
+#titulo{
+    text-align: center;
+    font-size: 40px;
+}
+#titulo:hover{
+    /* text-decoration: underline; */
+}
+
+ .emoj:hover{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    margin: 10px 20px;
+    display:inline-block;
+    background-color:#cc9df8;
+    padding: 10px 40px;
+    color: black;
+    box-shadow: 0px 6px 5px  #8f2aee;
+}
+a:hover{
+    box-shadow: 0px 2px 2px  #8f2aee;
+    font-size: 20px;
+}
+a:active{
+    background-color: black;
+    color: #fff;
+}
+section article section {
+    background-color:#cc9df8;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 100px;
+    width: 60%;
+    height: 300px;
+    position: relative;
+    border-radius: 50px;
+}
+.post{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 55%;
+}
+.aside{
+    border-radius: 10%;
+    background-color: #cc9df8;
+    width: 27%;
+    height: 230%;
+    position: absolute;
+    left: 69%;
+    top: 40%;
+    text-align: justify;
+}
+
+.imagenPost{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #dfd6e7;
+}
+#contacto{
+    font-size: 30px;
+    display: block;
+    
+}
