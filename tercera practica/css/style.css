@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: aliceblue;
+}
+p{
+    font-size: 140%;
+    line-height: 160%;
+    text-indent: 5%;
+    text-align: justify;
+    padding: 3% 10%;
+    color: rgb(97, 99, 100);
+}
+h2{
+font-size: 180%;
+font-weight: 700px;
+text-align: center;
+text-transform: uppercase;
+color: #616364;
+margin-top: 10px;
+}
+a{
+    font-size: 150%;
+    list-style: none;
+    text-decoration: none;
+    color: #616364;
+    font-weight: 150%;
+}
+a:hover{
+    color: #a1aeb4;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding-bottom: -4px;
+}
+#wrapper{
+    /* background-color: black; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#banner-wrapper{
+    /* background-color: rgb(14, 135, 241);
+    margin: 10%; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+}
+header #logo img{
+    max-width: 350px;
+    max-height: 70px;
+    float: left;
+}
+.nav{
+float: right;
+padding-top: 25px;
+}
+#menu-icon{
+    display: none;
+    font-size: 50px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.one-third{
+    margin: 10px;
+    width: 23%;
+    float: left;
+    text-align: center;
+    /* padding: 10px; */
+    /* display: inline-block; */
+    /* background-color: violet; */
+}
+.icon-wrapp{
+    margin: 0 auto;
+    width: 135px;
+    height: 135px;
+    background-color: rgb(70, 66, 66);
+    border-radius: 100%;
+    text-align: center;
+}
+.icon-wrapp i{
+    margin-top: 20%;
+    color: #fff;
+    font-size: 250%;
+}
+.one-third-padding{
+    margin: 0 25px;
+    width: 60%;
+    height: auto;
+    float: left;
+    padding-top: 4%;
+    /* background-color: yellowgreen; */
+}
+#sidebar{
+    margin:150px 20px;
+    /* background-color: rgb(255, 0, 0); */
+    max-width: 30%;
+    height: auto;
+    /* float: right; */
+    display: inline-block;
+}
+#sidebar img{  
+    margin: 5px;
+    float: left;
+    max-width: 45%;
+    height: auto;
+}
+#sidebar h2{
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+}
+#sidebar h3{
+    margin-left: 50;
+    display: inline-block;
+    padding: 30px;
+   
+}
+#sidebar p{
+    font-size: medium;
+    text-indent: none;
+}
+
+.block-float{
+    clear: both;
+}
+
+.main{
+    max-width: 1200%;
+    margin: 0 auto;
+    display: inline-block;
+    /* background-color: yellow; */
+}
+footer{
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(65, 68, 68);
+    overflow: auto;
+
+}
+.icon-text{
+    width: 100%;
+    margin: 0 auto;
+}
+.icon-text-icon{
+    margin-left: 5%;
+    float: left;
+    width: 25%;
+    padding: 1%;
+    list-style: none;
+}
+.icon-text-icon ul{
+    list-style: none;
+}
+.icon-text-icon a{
+    color: #a1aeb4;
+}
+.icon-text-text{
+    float: left;
+    width: 60%;
+    padding: 3%;
+    /* display: inline-block; */
+}
+.icon-text-text ul{
+    list-style: none;
+   
+}
+.social li{
+    display: inline-block;
+    margin: 0 3%;
+}
+.social li a i{
+    font-size: 300%;
+    color: #a1aeb4;
+}
+
+.banner-wrapper{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+}
+.second-footer{
+    border-top: 1px solid #a1aeb4;
+}
+.second-footer p{
+    text-align: center;
+    color: #a1aeb4;
+}
+
+
+@media screen and (max-width: 550px) {
+    
+    p{
+        font-size: 90%;
+        line-height:100%;
+        padding: 3% 10%;
+        color: rgb(97, 99, 100);
+    }
+     h2{
+    font-size: 80%;
+    font-weight: 400px;
+    }
+    a{
+        font-size: 100%;
+        font-weight: 120%;
+    } 
+    
+    header{
+        position: relative;
+        height: 80px;
+        
+    }
+    header #logo img{
+        max-width: 250px;
+        max-height:auto;
+        float: left;
+    }
+    
+    #menu-icon{
+        display: inline-block;
+        font-size: 30px;
+    }
+    nav:hover ul{
+        display: block; 
+    }
+    nav ul, nav:active ul{
+        display: block;
+        /* display: none; */
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background-color: #bfc7ca;
+        right: 20px;
+        width: 20%;
+        opacity: 0.95;
+    }
+    nav li{
+        margin-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
+    .one-third{
+        width: 20%;
+    }
+    .icon-wrapp{
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+    }
+    .icon-wrapp i{
+        font-size: 150%;
+    }
+    .one-third-padding{
+        width: 90%;
+        
+    }
+    #sidebar{
+        margin:50px 20px;
+        max-width: 90%;
+    }
+    
+    #sidebar h2{
+        font-size:small;
+    }
+    #sidebar h3{
+       text-align: center;
+       color: #616364;
+    }
+    #sidebar p{
+        font-size: 15px;
+    }
+    
+ 
+    .social li a i{
+        font-size: 200%;
+    }
+   
+}
